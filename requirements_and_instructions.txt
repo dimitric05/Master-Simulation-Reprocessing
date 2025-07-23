@@ -1,0 +1,29 @@
+Install these packages before running the program:
+
+opencv-python
+Pillow
+numpy
+turbojpeg
+
+1. Launch the script:
+   python ng_mark_reprocessing.py
+
+2. A Tkinter-based GUI will open
+
+3. Use the interface to:
+   - Select a folder containing images
+   - Settings to select number of workers
+   - Visual  manipulations to the loaded image (Aphla = Contrast, Beta = Brightness), Other settings are for detection power of what type of "Mark" is to be detected.
+   - Review visual results of NG mark detection
+   - Select RUN
+
+4. Output will be displayed or saved based on your version of the script.
+
+Here is an example of the pattern or array of the "Marking" that is to be detected in the image and on the product, since I cannot add a true production image for privacy.
+
+. . . . .         . . . . .
+. . . . .         . . . . .
+. . . . .         . . . . .
+. . . . .         . . . . .
+. . . . .         . . . . .
+. . . . .         . . . . .
